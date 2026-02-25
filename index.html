@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechHub Store - Your Tech Shopping Destination</title>
+    <meta name="description"
+        content="Discover the latest in tech at TechHub Store. From laptops to smartphones, we have everything you need.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container-liquid">
+            <a href="#main-content">Skip to main content</a>
+        </div>
+   
+        <div class="container-fluid bg-info" style="background-image: url(image/background.jpg);background-repeat: no-repeat;background-size: cover;background-position: center; background-attachment: fixed;">
+            <div class="row">
+                <div class="col-xl-12 text-center mt-3">
+                    <h1 class="hero-title mt-2 text-white">Welcome to TechHub Store</h1>
+                    <p class="hero-subtitle text-white">Discover the Latest Tech Innovations</p>
+                    <a href="#featured-products" class="btn btn-warning mb-3">Shop Now</a>
+                </div>
+           </div> 
+           <div class="row">
+                <div class="col-xl-2 offset-10 mb-3">
+                    <button class="rounded-2"><a href="#main-products">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                        </svg>
+                        </a>
+                    </button>
+                        <input type="search" placeholder="Search products..." class="search-input rounded-5 ">
+                        <br>
+                        <a href="#" class="cart-icon">🛒 <span class="badge"></span></a>
+                        <a href="#" class="user-icon">👤 Login</a>
+                </div>    
+           </div> 
+           <div class="row bg-dark">
+                    <div class="col col-xl bg-dark text-center border">
+                        <a href="#" class="btn btn-dark text-white w-100">
+                            <strong>TechHub Store</strong>
+                       </a>
+                    </div> 
+                    <div class="col col-xl text-center border">  
+                        <a href="#" class="btn btn-dark text-white  w-100">
+                            <strong>Home</strong>
+                       </a>                                                   
+                    </div>
+                     <div class="col col-xl text-center border">  
+                        <a href="#featured-products" class="btn btn-dark text-white w-100">
+                            <strong>Products</strong>
+                       </a>                                    
+                    </div>
+                     <div class="col col-xl text-center border">  
+                        <a href="#" class="btn btn-dark text-white w-100">
+                            <strong>Categories</strong>
+                       </a>                                        
+                    </div>
+                     <div class="col col-xl text-center border">
+                        <a href="#" class="btn btn-dark text-white  w-100">
+                            <strong>About</strong>
+                       </a>                                        
+                    </div>
+                    <div class="col col-xl text-center border ">
+                        <a href="#" class="btn btn-dark text-white  w-100">
+                            <strong>Contact</strong>
+                       </a>                                           
+                    </div>
+                </div>
+        </div>            
+    </header>
+   
+   
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Categories Section -->
+        <section>
+            <div class="container-sm">
+                <br>
+                <h2 class="section-title text-center">Shop by Category</h2>
+                <div class="row mt-3 text-center">
+                  
+                    <div class="category-item col col-2 offset-1">
+                        <img src="image/laptop.png" class="rounded mx-auto d-block img-fluid img-thumbnail border-0 image-fluid"alt="Laptops" style="width: 200px; height:200px;">
+                        <h5>Laptops & Computers</h5>
+                    </div>
+                    <div class="category-item col col-2 offset-2">
+                        <img src="image/smartphones.webp" class="rounded mx-auto d-block img-fluid img-thumbnail border-0 image-fluid"alt="Smartphones" style="width: 200px; height:200px;">
+                        <h5>Smartphones & Tablets</h5>
+                    </div>
+                    <div class="category-item col col-2 offset-2">
+                        <img src="image/audio.jpg" class="rounded mx-auto d-block img-fluid img-thumbnail border-0 image-fluid"alt="Audio" style="width: 200px; height:200px;">
+                        <h5>Audio & Headphones</h5>
+                    </div> 
+                   
+                </div>
+                <br>
+                <div class="row text-center">
+                     <div class="category-item col col-2 offset-1">
+                        <img src="image/cameras.jpg" class="rounded mx-auto d-block img-fluid img-thumbnail border-0 image-fluid"alt="Cameras" class="mb-2" style="width: 200px; height:200px;">
+                        <h5>Cameras & Photography</h5>
+                    </div>
+                       
+                    <div class="category-item col col-2 offset-2">
+                        <img src="image/gaming.jpg" class="rounded mx-auto d-block img-fluid img-thumbnail border-0 image-fluid"alt="Gaming" class="mb-2" style="width: 200px; height:200px;">
+                        <h5>Gaming & Consoles</h5>
+                    </div>
+                    <div class="category-item col col-2 offset-2">
+                        <img src="image/chairs.jpg" class="rounded mx-auto d-block img-fluid img-thumbnail border-0 image-fluid"alt="Accessories" class="mb-2"style="width: 200px; height:200px;">
+                        <h5>Accessories & More</h5>
+
+                    </div>
+                </div>
+            </div>
+                    
+
+        </section  id="main-products">
+        <div class="container-sm">
+            <br>
+              <h2 class="section-title">Featured Products</h2>
+              <br>
+            <div class="row text-center">
+                <div class="col-fluid col-3">
+                     <div class="container h-100px w-100px container-fluid bg-dark text-white rounded-3 mb-5">
+                        <br>
+                        <img src="image/havit-wireless-headphones-h2590bt-prohavit-business-678306_1024x1024.jpg" class="rounded mx-auto d-block img-fluid img-thumbnail" alt="Wireless Headphones Pro" style="width: 200px; height:200px;">
+                        <br>
+                        <div class="card-body">
+                            <h5 class="product-name">Wireless Headphones Pro</h5>
+                            <p class="product-desc">Premium noise-canceling wireless headphones</p>
+                            <div class="product-meta">
+                                <span class="price">$299.99</span>
+                                <span class="rating">⭐⭐⭐⭐½ (4.5)</span>
+                            </div>
+                            <br>
+                            <button class="btn bg-warning mb-4 ">Add to Cart</button>
+                            
+                        </div>
+                    </div>                  
+                </div>
+                <div class="ccol-fluid  col-3">
+
+                  <div class="product-card card bg-dark text-white">
+                        <br>
+                        <img src="image/5cc24c3c-4e73-11ef-b07e-0a7512694fc0.jpg" alt="Ultra HD Smart TV 55" class="rounded mx-auto d-block img-fluid img-thumbnail" alt="Wireless Headphones Pro" style="width: 200px; height:200px;">
+                        <div class="card-body">
+                            <h5 class="product-name">Ultra HD Smart TV 55"</h5>
+                            <p class="product-desc">4K resolution with HDR support</p>
+                            <div class="product-meta">
+                                <span class="price">$799.99</span>
+                                <span class="rating">⭐⭐⭐⭐⭐ (4.8)</span>
+                            </div>
+                            <br>
+                            <br>
+                            <button class="btn bg-warning mb-3">Add to Cart</button>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-fluid col-3">
+                     <div class="product-card card bg-dark text-white">
+                        <br>
+                        <img src="image/gaminglaptop.jpeg" alt="Gaming Laptop Elite" class="rounded mx-auto d-block img-fluid img-thumbnail" alt="Wireless Headphones Pro" style="width: 200px; height:200px;">
+                        <div class="card-body">
+                            <h5 class="product-name">Gaming Laptop Elite</h5>
+                            <p class="product-desc">High-performance laptop for gaming enthusiasts</p>
+                            <div class="product-meta">
+                                <span class="price">$1,499.99</span>
+                                <span class="rating">⭐⭐⭐⭐⭐ (4.7)</span>
+                            </div>
+                            <br>
+                            <button class="btn bg-warning mb-3">Add to Cart</button>
+                        </div>
+                    </div>
+                    
+                </div>
+                 <div class="col col-3">
+                     <div class="product-card card bg-dark text-white">
+                        <br>
+                        <img src="image/smartphoneX.jpeg" alt="Smartphone X Pro" class="rounded mx-auto d-block img-fluid img-thumbnail" alt="Wireless Headphones Pro" style="width: 200px; height:200px;">
+                        <div class="card-body">
+                            <h5 class="product-name">Smartphone X Pro</h5>
+                            <p class="product-desc">Latest flagship smartphone with triple camera</p>
+                            <div class="product-meta">
+                                <span class="price">$999.99</span>
+                                <span class="rating">⭐⭐⭐⭐½ (4.6)</span>
+                            </div>
+                            <br>
+                            <button class="btn bg-warning mb-3">Add to Cart</button>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+            <div class="row text-center" >
+               
+                <div class="col col-3">
+                    <div class="product-card card mb-5 bg-dark text-white" >
+                        <br>
+                        <img src="image/smarthwatch.jpeg" alt="Smart Watch Ultra" class="rounded mx-auto d-block img-fluid img-thumbnail" alt="Wireless Headphones Pro" style="width: 200px; height:200px;">
+                        <div class="card-body">
+                            <h5 class="product-name">Smart Watch Ultra</h5>
+                            <p class="product-desc">Health tracking and GPS with long battery life</p>
+                            <div class="product-meta">
+                                <span class="price">$399.99</span>
+                                <span class="rating">⭐⭐⭐⭐½ (4.4)</span>
+                            </div>
+                            <br>
+                            <button class="btn bg-warning mb-3">Add to Cart</button>
+                        </div>
+                    </div>
+
+                    
+                </div>
+                <div class="col col-3">
+                    <div class="product-card card bg-dark text-white">
+                        <br>
+                        <img src="image/tronsmart-sounfii-nc-2-hybrid-anc-earbuds.jpg" alt="Noise Canceling Earbuds" class="rounded mx-auto d-block img-fluid img-thumbnail" alt="Wireless Headphones Pro" style="width: 200px; height:200px;">
+                        <div class="card-body">
+                            <h5 class="product-name">ANC Earbuds</h5>
+                            <p class="product-desc">Crystal clear sound with active noise cancellation</p>
+                            <div class="product-meta">
+                                <span class="price">$149.99</span>
+                                <span class="rating">⭐⭐⭐⭐ (4.2)</span>
+                            </div>
+                            <br>
+                            <button class="btn bg-warning mb-3">Add to Cart</button>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col col-3">
+                     <div class="product-card card bg-dark text-white">
+                        <br>
+                        <img src="image/6527adb1003e0b01e526b6b9-lenovo-tab-p12-pro-with-pen-12-tablet.jpg" alt="Tablet Pro 12"  class="rounded mx-auto d-block img-fluid img-thumbnail" alt="Wireless Headphones Pro" style="width: 200px; height:200px;">
+                        <div class="card-body">
+                            <h5 class="product-name">Tablet Pro 12"</h5>
+                            <p class="product-desc">Powerful tablet for creative professionals</p>
+                            <div class="product-meta">
+                                <span class="price">$899.99</span>
+                                <span class="rating">⭐⭐⭐⭐⭐ (4.9)</span>
+                            </div>
+                            <br>
+                            <button class="btn bg-warning mb-3">Add to Cart</button>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col col-3">
+                    <div class="product-card card bg-dark text-white">
+                        <br>
+                        <img src="image/images.jpeg" alt="Mechanical Gaming Keyboard"
+                             class="rounded mx-auto d-block img-fluid img-thumbnail" alt="Wireless Headphones Pro" style="width: 200px; height:200px;">
+                        <div class="card-body">
+                            <h5 class="product-name">RGB Gaming Keyboard</h5>
+                            <p class="product-desc">Tactile mechanical switches with customizable lighting</p>
+                            <div class="product-meta">
+                                <span class="price">$129.99</span>
+                                <span class="rating">⭐⭐⭐⭐½ (4.6)</span>
+                            </div>
+                            <br>
+                            <button class="btn bg-warning mb-3">Add to Cart</button>
+                        </div>
+                    </div>   
+                </div>
+
+            </div>
+            
+
+        </div>
+
+        </section>
+
+        <!-- Newsletter Section -->
+        <section id="newsletter-section">
+            <div class="container mb-5">
+                <div class="newsletter-box">
+                    <h3>Stay Updated</h3>
+                    <p>Subscribe to our newsletter for exclusive deals and updates.</p>
+                    <form class="newsletter-form row">
+                        <div class="col-8 col-md-4">
+                            <input type="email" placeholder="Enter your email address">
+                            <button type="submit" class="btn btn-primary">Subscribe</button>
+                            </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer id="footer-info" class="footer">
+        <div class="container-liquid bg-dark text-white">
+            <br>
+            <div class="row">
+                <div class="col footer-col col-4 ms-3">
+                    <h4>About Us</h4>
+                    <p>TechHub Store is your one-stop shop for the latest technology and gadgets. We provide
+                        high-quality products from top brands.</p>
+                    <div class="social-links">
+                        <a href="#">FB</a> | <a href="#">TW</a> | <a href="#">IG</a> | <a href="#">LI</a>
+                    </div>
+                </div>
+                <div class="col footer-col">
+                    <h4>Customer Service</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col footer-col">
+                    <h4>Contact Information</h4>
+                    <address>
+                        123 Tech Street, Digital City, DC 12345<br>
+                        Phone: +1 (555) 123-4567<br>
+                        Email: <a href="mailto:support@techhubstore.com">support@techhubstore.com</a>
+                    </address>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col">
+                    <p class="copyright">&copy; 2026 TechHub Store. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
